@@ -6,9 +6,9 @@ To perform the reconstruction, next steps were applied:
    <li>Calibration of stereo setup</li>
    <ul>
    <li>Capture at least 10 images of a checkerboad</li>
-   <li>Calibration Toolbox to find transformation matrix</li>
+   <li>Use Camera Calibration Toolbox to find transformation matrix</li>
    <li>Calibrate each camera separately (to get intrinsic parameters)</li>
-   <li>Then calibrate one camera with respect of each other (to get extrinsic parameters)</li>
+   <li>Calibrate one camera with respect of each other (to get extrinsic parameters)</li>
    </ul><br/>
    <img src="https://github.com/alexanch/3d-reconstruction-stereo-kinect/blob/master/1.png" align="middle"><br/>
 <li>Image preprocessing</li>
@@ -19,8 +19,8 @@ To perform the reconstruction, next steps were applied:
       <li>uint16 data type convert to double</li>
       <li>сreate a 3d point cloud (left and right depth images separately), then we do alignment for left and right Kinect setup</li>
    </ul>
-<li>Align left and right Kinects using Extrinsic calibration data</li>
-<li>Generate Point Clouds for left and right Kinects. Color pixel + Depth</li>
+<li>Align left and right Kinect 3d point clouds using Extrinsic calibration data</li>
+<li>Generate Point Clouds for left and right Kinects: Color pixel + Depth</li>
    <br/><img src="https://github.com/alexanch/3d-reconstruction-stereo-kinect/blob/master/2_.png" align="middle"><br/>
 </ol>
 
