@@ -10,7 +10,7 @@ To perform the reconstruction, next steps were applied:
    <li>Calibrate each camera separately (to get intrinsic parameters)
    <li>Then calibrate one camera with respect of each other (to get extrinsic parameters)
    </ul>
-   ![alt text](href="https://prnt.sc/qy7d3i")
+   ![alt text](https://prnt.sc/qy7d3i)
 <li>Image preprocessing</li>
    <ul>
    <li>Apply morphological erosion + bilateral filtering</li></ul>
@@ -21,7 +21,7 @@ To perform the reconstruction, next steps were applied:
    </ul>
 <li>Align left and right Kinects using Extrinsic calibration data</li>
 <li>Generate Point Clouds for left and right Kinects. Color pixel + Depth</li>
-![alt text](href="https://prnt.sc/qy7ez2")
+![alt text](https://prnt.sc/qy7ez2)
 </ol>
 
 ## Limitations of the depth camera:
