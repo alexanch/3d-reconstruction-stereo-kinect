@@ -5,10 +5,10 @@ To perform the reconstruction, next steps were applied:
 <ol>
    <li>Calibration of stereo setup</li>
    <ul>
-   <li>Capture at least 10 images of a checkerboad
-   <li>Cam<li>era Calibration Toolbox to find transformation matrix
-   <li>Calibrate each camera separately (to get intrinsic parameters)
-   <li>Then calibrate one camera with respect of each other (to get extrinsic parameters)
+   <li>Capture at least 10 images of a checkerboad</li>
+   <li>Calibration Toolbox to find transformation matrix</li>
+   <li>Calibrate each camera separately (to get intrinsic parameters)</li>
+   <li>Then calibrate one camera with respect of each other (to get extrinsic parameters)</li>
    </ul><br/>
    <img src="https://github.com/alexanch/3d-reconstruction-stereo-kinect/blob/master/1.png" align="middle"><br/>
 <li>Image preprocessing</li>
