@@ -18,7 +18,8 @@ To perform the reconstruction, next steps were applied:
    <ul>
       <li>uint16 data type convert to double</li>
       <li>сreate a 3d point cloud (left and right depth images separately), then we do alignment for left and right Kinect setup</li>
-<li>Align left and right Kinects using Extrinsic calibration data</li></ul>
+   </ul>
+<li>Align left and right Kinects using Extrinsic calibration data</li>
 <li>Generate Point Clouds for left and right Kinects. Color pixel + Depth</li>
 <src href="https://prnt.sc/qy7ez2" align ="middle">
 </ol>
