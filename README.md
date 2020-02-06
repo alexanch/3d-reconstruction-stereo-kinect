@@ -1,22 +1,23 @@
 ## 3D RECONSTRUCTION using 2 Kinect cameras
 
+
 To perform the reconstruction, next steps were applied:
-* Calibration of stereo setup
-⋅⋅* Capture at least 10 images of a checkerboad
-⋅⋅* Camera Calibration Toolbox to find transformation matrix
-⋅⋅* Calibrate each camera separately (to get intrinsic parameters)
-⋅⋅* Then calibrate one camera with respect of each other (to get extrinsic parameters)
-   <src href="https://prnt.sc/qy7d3i" align ="middle">
-2. Image preprocessing
-⋅⋅⋅* Apply morphological erosion
-⋅⋅⋅* Apply bilateral filtering
-3. Calibrate the two depth cameras with respect of RGB data
+<ul>
+   <li>Calibration of stereo setup</li>
+      Capture at least 10 images of a checkerboad
+      Camera Calibration Toolbox to find transformation matrix
+      Calibrate each camera separately (to get intrinsic parameters)
+      Then calibrate one camera with respect of each other (to get extrinsic parameters)
+      <src href="https://prnt.sc/qy7d3i" align ="middle">
+<li>Image preprocessing</li>
+         Apply morphological erosion + bilateral filtering
+<li>Calibrate the two depth cameras with respect of RGB data</li>
 ⋅⋅⋅* uint16 data type convert to double
 ⋅⋅⋅* сreate a 3d point cloud (left and right depth images separately), then we do alignment for left and right Kinect setup
-4. Align left and right Kinects using Extrinsic calibration data
-5. Generate Point Clouds for left and right Kinects. Color pixel + Depth
+<li>Align left and right Kinects using Extrinsic calibration data</li>
+<li>Generate Point Clouds for left and right Kinects. Color pixel + Depth</li>
    <src href="https://prnt.sc/qy7ez2" align ="middle">
-
+</ul>
 
 ## Limitations of the depth camera:
 
