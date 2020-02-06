@@ -18,7 +18,7 @@ To perform the reconstruction, next steps were applied:
    <ul>
       <li>uint16 data type convert to double</li>
       <li>сreate a 3d point cloud (left and right depth images separately), then we do alignment for left and right Kinect setup</li>
-<li>Align left and right Kinects using Extrinsic calibration data</li>
+<li>Align left and right Kinects using Extrinsic calibration data</li></ul>
 <li>Generate Point Clouds for left and right Kinects. Color pixel + Depth</li>
 <src href="https://prnt.sc/qy7ez2" align ="middle">
 </ol>
@@ -36,4 +36,4 @@ situation (ex. – table) light has to reflect back to sensor for Kinect to regi
 <li> Additionally, the method doesn’t work with fully symmetrical objects. If the depth info is identical in two frames, then ICP algorithm converges already with initial transformation guess (identity transformation) and the frames are not aligned correctly.</li>
 </ul>
 
-## Details: [the pdf](../3d_reconstruction_Proj_Boiko.pdf).
+## Details: [[pdf]](../3d_reconstruction_Proj_Boiko.pdf).
