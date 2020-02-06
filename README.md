@@ -10,7 +10,7 @@ To perform the reconstruction, next steps were applied:
    <li>Calibrate each camera separately (to get intrinsic parameters)
    <li>Then calibrate one camera with respect of each other (to get extrinsic parameters)
    </ul>
-   ![alt text](https://prnt.sc/qy7d3i "img")
+   <img src="../1.png">
 <li>Image preprocessing</li>
    <ul>
    <li>Apply morphological erosion + bilateral filtering</li></ul>
