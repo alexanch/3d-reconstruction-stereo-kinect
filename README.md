@@ -1,11 +1,11 @@
 ## 3D RECONSTRUCTION using 2 Kinect cameras
 
 To perform the reconstruction, next steps were applied:
-1. Calibration of stereo setup
-⋅⋅⋅* Capture at least 10 images of a checkerboad
-⋅⋅⋅* Camera Calibration Toolbox to find transformation matrix
-⋅⋅⋅* Calibrate each camera separately (to get intrinsic parameters)
-⋅⋅⋅* Then calibrate one camera with respect of each other (to get extrinsic parameters)
+* Calibration of stereo setup
+⋅⋅* Capture at least 10 images of a checkerboad
+⋅⋅* Camera Calibration Toolbox to find transformation matrix
+⋅⋅* Calibrate each camera separately (to get intrinsic parameters)
+⋅⋅* Then calibrate one camera with respect of each other (to get extrinsic parameters)
    <src href="https://prnt.sc/qy7d3i" align ="middle">
 2. Image preprocessing
 ⋅⋅⋅* Apply morphological erosion
