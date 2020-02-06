@@ -21,7 +21,8 @@ To perform the reconstruction, next steps were applied:
    </ul>
 <li>Align left and right Kinect 3d point clouds using Extrinsic calibration data</li>
 <li>Generate Point Clouds for left and right Kinects: Color pixel + Depth</li>
-   <br/><img src="https://github.com/alexanch/3d-reconstruction-stereo-kinect/blob/master/2_.png" align="middle"><br/>
+   <br/><img src="https://github.com/alexanch/3d-reconstruction-stereo-kinect/blob/master/2_.png" align="middle">
+   <br/><br/>
 </ol>
 
 ## Limitations of the depth camera:
