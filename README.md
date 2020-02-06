@@ -2,17 +2,17 @@
 
 To perform the reconstruction, next steps were applied:
 1. Calibration of stereo setup
-⋅⋅* Capture at least 10 images of a checkerboad
-⋅⋅* Camera Calibration Toolbox to find transformation matrix
-⋅⋅* Calibrate each camera separately (to get intrinsic parameters)
-⋅⋅* Then calibrate one camera with respect of each other (to get extrinsic parameters)
+⋅⋅⋅* Capture at least 10 images of a checkerboad
+⋅⋅⋅* Camera Calibration Toolbox to find transformation matrix
+⋅⋅⋅* Calibrate each camera separately (to get intrinsic parameters)
+⋅⋅⋅* Then calibrate one camera with respect of each other (to get extrinsic parameters)
    <src href="https://prnt.sc/qy7d3i" align ="middle">
 2. Image preprocessing
-⋅⋅* Apply morphological erosion
-⋅⋅* Apply bilateral filtering
+⋅⋅⋅* Apply morphological erosion
+⋅⋅⋅* Apply bilateral filtering
 3. Calibrate the two depth cameras with respect of RGB data
-⋅⋅* uint16 data type convert to double
-⋅⋅* сreate a 3d point cloud (left and right depth images separately), then we do alignment for left and right Kinect setup
+⋅⋅⋅* uint16 data type convert to double
+⋅⋅⋅* сreate a 3d point cloud (left and right depth images separately), then we do alignment for left and right Kinect setup
 4. Align left and right Kinects using Extrinsic calibration data
 5. Generate Point Clouds for left and right Kinects. Color pixel + Depth
    <src href="https://prnt.sc/qy7ez2" align ="middle">
@@ -30,4 +30,4 @@ situation (ex. – table) light has to reflect back to sensor for Kinect to regi
 ⋅⋅* Additionally, the method doesn’t work with fully symmetrical objects. If the depth info is identical in two frames, then ICP algorithm converges already with initial transformation guess (identity transformation) and the frames are not aligned correctly.
 
 ## Details: 
-[the pdf](../3d reconstruction_Proj_Boiko.pdf).
+[the pdf](../3d_reconstruction_Proj_Boiko.pdf).
