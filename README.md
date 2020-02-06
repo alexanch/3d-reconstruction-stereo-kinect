@@ -21,7 +21,7 @@ To perform the reconstruction, next steps were applied:
    </ul>
 <li>Align left and right Kinects using Extrinsic calibration data</li>
 <li>Generate Point Clouds for left and right Kinects. Color pixel + Depth</li>
-![alt text](https://prnt.sc/qy7ez2 "img")
+   ![alt text](https://prnt.sc/qy7ez2 "img")
 </ol>
 
 ## Limitations of the depth camera:
